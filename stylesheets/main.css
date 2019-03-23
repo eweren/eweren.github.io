@@ -24,8 +24,17 @@ ul {
   }
 }
 
+.is-centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .column {
   padding: 3rem 1.75rem;
+}
+
+.has-only-top-padding {
+  padding: 3rem 0 0 0;
 }
 
 .box{

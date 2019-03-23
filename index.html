@@ -1,140 +1,165 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <title>Nico Hülscher</title>
-  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
-  <link href="stylesheets/bulma.min.css" rel="stylesheet">
-  <link href="stylesheets/main.css" rel="stylesheet">
-  <script src="scripts/rellax.min.js"></script>
-  <link rel="icon" type="image/png" href="images/favicon.png">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-
-<body>
-      <section class="hero is-fullheight">
-          <div class="hero-body container">
-              <div class="columns">
-            <div class="container column">
-              <h2 class="is-family-monospace has-text-dark">Hallo, Welt!</h2>
-              <h1 class="title is-size-1">
-                Ich bin Nico Hülscher
-              </h1>
-              <h2 class="subtitle has-text-weight-semibold">
-                FULL STACK WEB DEVELOPER &
-                DESIGNER
-            </div>
-            <div class="column">
-                <img style="width:300px;" src="images/programmer.gif" class="rellax" data-rellax-speed="-1">
+  <head>
+    <title>Nico Hülscher</title>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="stylesheets/bulma.min.css" rel="stylesheet">
+    <link href="stylesheets/main.css" rel="stylesheet">
+    <script src="scripts/rellax.min.js"></script>
+    <script src="scripts/core.js"></script>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <section class="hero is-fullheight">
+      <div class="hero-body">
+        <div class="columns" style="width:100%">
+          <div class="column is-two-thirds">
+            <h2 class="is-family-monospace has-text-dark" id="helloWorld"></h2>
+            <h1 class="title is-size-1">Ich bin Nico Hülscher</h1>
+            <h2 class="subtitle has-text-weight-semibold">FULL STACK WEB DEVELOPER & DESIGNER</h2>
+          </div>
+          <div class="column is-one-third">
+            <div style="text-align: center">
+              <img style="width:300px;" src="images/programmer.gif" class="rellax" data-rellax-speed="-1">
             </div>
           </div>
         </div>
-        </section>
-        <section class="hero is-medium is-primary is-bold has-shadow" style="z-index:1">
-            <div class="hero-body container" style="margin-bottom: 6rem;">
-              <div class="container">
-                <h1 class="title has-text-centered">
-                  Über mich!
-                </h1>
-                <h2 class="subtitle has-text-centered">
-                  Ich bin ein Problemlöser, ein Kreativer und ein Denker.<br>
-                  Viel Neugier und Engagement treiben mich an,<br>
-                  um meine Fähigkeiten in den Bereichen der Programmierung<br>
-                  sowie UI/UX-Design zu erweitern.<br>
-                </h2>
-              </div>
-            </div>
-          </section>
-          <section class="skills has-text-centered">
-            <div class="container is-narrow front">
-                <div class="box rellax" data-rellax-speed="-1">
-                    <div class="content">
-                      <div class="columns is-centered">
-                        <div class="column divider">
-                            <span class="icon has-text-info">
-                            <i class="fas fa-laptop-code fa-2x"></i>
-                            </span>
-                          <h1 class="title is-size-4 is-spaced">Full Stack Developer</h1>
-                          <p>Ich mag die Abwechslung beim Entwerfen und Programmieren von Lösungen.</p>
-                          <p class="list-title has-text-info has-text-weight-normal">Ich spreche:</p>
-                          <p>JavaScript, HTML, CSS, JAVA, Python, Sass</p>
-                          <p class="list-title has-text-info has-text-weight-normal">Dev Tools:</p>
-                          <ul>
-                            <li>VS Code</li>
-                            <li>Bitbucket</li>
-                            <li>Git Kraken<Li>
-                            <li>Angular</li>
-                            <li>Ionic</li>
-                            <li>MongoDB</li>
-                            <li>Bulma</li>
-                            <li>Github</li>
-                          </ul>
-                        </div>
-                        <div class="column">
-                            <span class="icon has-text-primary">
-                            <i class="fas fa-pencil-ruler fa-2x"></i>
-                            </span>
-                          <h1 class="title is-size-4 is-spaced">Designer</h1>
-                          <p>Ich schätze einfache Inhaltsstruktur, klare Designmuster und durchdachte Interaktionen.</p>
-                          <p class="list-title has-text-primary has-text-weight-normal">Ich entwerfe gerne:</p>
-                          <p>UX, UI, Web, Mobile, Apps, Logos</p>
-                          <p class="list-title has-text-primary has-text-weight-normal">Design Tools:</p>
-                          <ul>
-                            <li>Affinity Designer</li>
-                            <li>Affinity Photo</li>
-                            <li>Affinit Publisher</li>
-                            <li>Adobe XD</li>
-                            <li>Webflow</li>
-                            <li>Proto.io<li>
-                            <li>Figma</li>
-                            <li>Stift &amp; Papier</li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-            </div>
-            <img id="rocket" src="images/rocket.png" class="rellax" data-rellax-speed="9">
-          </section>
-</body>
-
-<footer>
-  <section class="hero is-primary is-bold is-medium has-text-centered" style="margin-top: -6rem;
-  padding-top: 12rem;">
-    <div class="container is-narrow">
-      <div class="columns is-centered">
-        <div class="column is-one-third">
-            <img style="width:75px;" src="images/logo_w.svg"´>
-          <h1 class="title is-size-4-touch">Treten Sie gerne mit mir in Kontakt.</h1>
-          <a href="https://www.xing.com/profile/Nico_Huelscher">
-          <span class="icon contactIcon">
-          <i class="fab fa-xing-square fa-2x"></i>
-          </span>
-        </a>
-          <a href="https://github.com/eweren">
-          <span class="icon contactIcon">
-          <i class="fab fa-github-square fa-2x"></i>
-          </span>
-        </a>
-          <a href="mailto:nico.huelscher@pflegix.de">
-          <span class="icon contactIcon">
-          <i class="fas fa-envelope-square fa-2x"></i>
-          </span>
-        </a>
+      </div>
+    </section>
+    <section class="hero is-medium is-primary is-bold has-shadow" style="z-index:1">
+      <div class="hero-body container" style="margin-bottom: 6rem;">
+        <div class="container">
+          <h1 class="title has-text-centered">
+            Über mich!
+          </h1>
+          <h2 class="subtitle has-text-centered">
+            Ich bin ein Problemlöser, ein Kreativer und ein Denker.<br>
+            Viel Neugier und Engagement treiben mich an,<br>
+            um meine Fähigkeiten in den Bereichen der Programmierung<br>
+            sowie UI/UX-Design zu erweitern.<br>
+          </h2>
         </div>
       </div>
-      <div class="copyright">Made by me <i class="far fa-copyright"></i> twentynineteen</div>
-      <div class="made-by-bulma"><a href="https://bulma.io"><img src="https://bulma.io/images/made-with-bulma--white.png" alt="Made with Bulma" width="163" height="31"></a></div>
-    </div>
-  </section>
+    </section>
+    <section class="skills has-text-centered">
+      <div class="container is-narrow front">
+        <div class="box rellax" data-rellax-speed="-1">
+          <div class="content">
+            <div class="columns is-centered">
+              <div class="column divider">
+                <span class="icon has-text-primary">
+                  <i class="fas fa-laptop-code fa-2x"></i>
+                </span>
+                <h1 class="title is-size-4 is-spaced">Full Stack Developer</h1>
+                <p>Ich mag die Abwechslung beim Entwerfen und Programmieren von Lösungen.</p>
+                <p class="list-title has-text-primary has-text-weight-normal">Ich spreche:</p>
+                <p>JavaScript, HTML, CSS, JAVA, Python, Sass</p>
+                <p class="list-title has-text-primary has-text-weight-normal">Dev Tools:</p>
+                <ul>
+                  <li>VS Code</li>
+                  <li>Bitbucket</li>
+                  <li>Git Kraken<Li>
+                  <li>Angular</li>
+                  <li>Ionic</li>
+                  <li>MongoDB</li>
+                  <li>Bulma</li>
+                  <li>Github</li>
+                </ul>
+              </div>
+              <div class="column">
+                <span class="icon has-text-info">
+                  <i class="fas fa-pencil-ruler fa-2x"></i>
+                </span>
+                <h1 class="title is-size-4 is-spaced">Designer</h1>
+                <p>Ich schätze einfache Inhaltsstruktur, klare Designmuster und durchdachte Interaktionen.</p>
+                <p class="list-title has-text-info has-text-weight-normal">Ich entwerfe gerne:</p>
+                <p>UX, UI, Web, Mobile, Apps, Logos</p>
+                <p class="list-title has-text-info has-text-weight-normal">Design Tools:</p>
+                <ul>
+                  <li>Affinity Designer</li>
+                  <li>Affinity Photo</li>
+                  <li>Affinit Publisher</li>
+                  <li>Adobe XD</li>
+                  <li>Webflow</li>
+                  <li>Proto.io<li>
+                  <li>Figma</li>
+                  <li>Stift &amp; Papier</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img id="rocket" src="images/rocket.png" class="rellax" data-rellax-speed="9">
+    </section>
+  </body>
+
+  <footer>
+    <section class="hero is-primary is-bold is-medium has-text-centered" style="margin-top: -6rem;padding-top: 12rem;">
+      <div class="container is-narrow">
+        <div class="columns is-centered">
+          <div class="column is-one-third">
+            <figure class="image is-64x64 is-centered">
+              <img src="images/logo_w.svg">
+            </figure>
+            <h1 class="title is-size-4-touch">Treten Sie gerne mit mir in Kontakt.</h1>
+            <a href="https://www.xing.com/profile/Nico_Huelscher">
+              <span class="icon contactIcon">
+                <i class="fab fa-xing-square fa-2x"></i>
+              </span>
+            </a>
+            <a href="https://github.com/eweren">
+              <span class="icon contactIcon">
+                <i class="fab fa-github-square fa-2x"></i>
+              </span>
+            </a>
+            <a href="mailto:nico.huelscher@pflegix.de">
+              <span class="icon contactIcon">
+                <i class="fas fa-envelope-square fa-2x"></i>
+              </span>
+            </a>
+          </div>
+        </div>
+        <div class="copyright">Made by me <i class="far fa-copyright"></i> twentynineteen</div>
+        <div class="made-by-bulma">
+          <a href="https://bulma.io">
+            <img src="https://bulma.io/images/made-with-bulma--white.png" alt="Made with Bulma" width="163" height="31">
+          </a>
+        </div>
+      </div>
+    </section>
   </footer>
-
-
-
 <script>
     // Accepts any class name
     var rellax = new Rellax('.rellax');
+    var helloWorld = document.getElementById('helloWorld');
+    var iAm = document.getElementById('iAm');
+    var developer = document.getElementById('developer');
+
+    var typewriterHelloWorld = new Typewriter(helloWorld, {
+        loop: true,
+        cursor: '|',
+        delay: '50'
+    });
+
+    typewriterHelloWorld
+      .typeString('const helloWorld = "Hallo, Welt!";')
+      .pauseFor(1000)
+      .deleteAll()
+      .typeString('console.log(helloWorld);')
+      .pauseFor(1000)
+      .deleteAll()
+      .typeString('console.log("99 little bugs in the code");')
+      .pauseFor(1000)
+      .deleteAll()
+      .typeString('console.log("1 bug fixed... compile again");')
+      .pauseFor(1000)
+      .deleteAll()
+      .typeString('console.log("100 little bugs in the code");')
+      .start();
+
   </script>
 
 </html>
